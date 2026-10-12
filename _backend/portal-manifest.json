@@ -1,0 +1,30 @@
+{
+  "portal_directory": "employee-dot",
+  "portal_code": "employee_dot",
+  "domain": "employee-dot.screenings4u.com",
+  "label": "DOT Employee / Driver Portal",
+  "kind": "self",
+  "agency": null,
+  "runtime_functions": {
+    "session": "employee-dot-session",
+    "actions": "employee-dot-actions",
+    "distribution": "employee-dot-distribution"
+  },
+  "account_type": null,
+  "internal_role": null,
+  "plan_rule": {
+    "type": "prefix_excluding",
+    "value": "dot_employer_",
+    "exclude": "ctpa_sponsored"
+  },
+  "validation_profile": "self_service",
+  "isolated_runtime": true,
+  "shared_runtime_dependencies": [],
+  "database_note": "Database business records remain centralized; executable portal runtime is isolated.",
+  "role_model": {
+    "type": "employee_self",
+    "accepted_roles": [
+      "employee"
+    ]
+  }
+}
