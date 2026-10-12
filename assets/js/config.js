@@ -1,7 +1,7 @@
 window.PORTAL_CONFIG=Object.freeze({
-  domain:'employee-dot.screenings4u.com',
-  portalCode:'employee_dot',
-  label:'DOT Employee / Driver Portal',
+  domain:'ctpa-employee-dot.screenings4u.com',
+  portalCode:'ctpa_employee_dot',
+  label:'C/TPA Sponsored DOT Employee Portal',
   kind:'self',
   surface:'dot',
   agency:null,
